@@ -1,13 +1,14 @@
 '''
 Instructions
-updated by quantumlike @ 10/8/2017
 
-First go to : https://www.dropbox.com/developers/apps/create
-Then create a "Dropbox API" & "App folder" there. 
-Now go to your dropbox apps console to get access token. 
-Install the dropbox module on Raspberry Pi 3: 
-  sudo pip3 install dropbox
-Modify upload_file_to_dropbox.py accordingly. it is a python script to upload files to dropbox from Raspberry Pi 3. Using DropBox API v2.
+Updated by quantumlike @ 10/8/2017
+
+1. First go to : https://www.dropbox.com/developers/apps/create
+2. Then create a "Dropbox API" & "App folder" there. 
+3. Now go to your dropbox apps console to get access token. 
+4. Install the dropbox module on Raspberry Pi 3: 
+   sudo pip3 install dropbox
+5. Modify upload_file_to_dropbox.py accordingly. it is a python script to upload files to dropbox from Raspberry Pi 3. Using DropBox API v2.
 file will be uploaded to /Apps/<your defined App folder name>/ on DropBox.
 '''
 
