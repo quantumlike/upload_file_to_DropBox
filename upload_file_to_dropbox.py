@@ -1,10 +1,11 @@
-import dropbox 
-import sys
-# from time import sleep
 
 # Python 3.5.3
 # Using DropBox API v2.
 # by quantumlike @ 10/16/2017
+
+import dropbox 
+import sys
+# from time import sleep
 
 # This will fail if use an invalid authorization code
 access_token = '<your access token>' # Put the access token obtained from previous file here
