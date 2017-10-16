@@ -15,3 +15,4 @@ file_from = '/home/0012.jpg'
 dest_path = '/test/0012.jpg'
 with open(file_from, 'rb') as f:
     dbx.files_upload(f.read(), dest_path)
+    print ('uploaded to DropBox')
