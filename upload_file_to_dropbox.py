@@ -2,6 +2,8 @@ import dropbox
 import sys
 # from time import sleep
 
+#Using DropBox API v2.
+
 # This will fail if use an invalid authorization code
 access_token = '<your access token>' # Put the access token obtained from previous file here
 print ("Your access token is:", access_token)
